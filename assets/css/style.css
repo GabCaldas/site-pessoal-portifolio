@@ -1,0 +1,161 @@
+.body {
+  background-image: url(../images/ecb6416c16b66e9e5409def9271224a2.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  font-family: 'VT323', monospace;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.foto-perfil {
+  height: 120px;
+  width: 120px;
+}
+.cartao {
+  background-color: #070d12;
+  width: 370px;
+  border: 2px solid #e126d9;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.cartao .minhas-informacoes {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.cartao .minhas-informacoes img {
+  border-radius: 100px;
+  border: 2px solid #e126d9;
+}
+
+.cartao .minhas-informacoes .nome {
+  font-size: 26px;
+  margin: 0px;
+}
+
+.cartao .minhas-informacoes .cargo {
+  font-size: 20px;
+  color: #de355d;
+  margin: 10px;
+}
+
+.cartao .abas {
+  display: flex;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.cartao .abas .aba {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.cartao .abas img {
+  width: 30px;
+}
+
+.sub-titulo,
+.redes-sociais,
+.informacao,
+.paragrafo2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cartao .abas .aba.selecionada {
+  background-color: #262626;
+}
+
+.cartao .informacoes-abas {
+  background-color: #262626;
+}
+
+.cartao .abas .aba:hover {
+  background-color: #414141;
+}
+
+.informacoes-abas .informacao {
+  min-height: 260px;
+  padding: 15px;
+  display: none;
+}
+
+.informacoes-abas .informacao.selecionada {
+  display: block;
+}
+
+.informacoes-abas .sub-titulo {
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.informacoes-abas .descricao {
+  font-size: 20px;
+  max-height: 180px;
+  overflow-y: auto;
+  padding-right: 15px;
+}
+
+.informacoes-abas .descricao span {
+  color: #7f35c8;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  list-style: none;
+}
+
+.redes-sociais li a {
+  color: white;
+  width: 250px;
+  display: block;
+  color: f3f3f3;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  transition: opacity 0.3s ease-in-out;
+  text-decoration: none;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.redes-sociais .curriculo {
+  background-color: #06c185;
+}
+
+.redes-sociais .linkedin {
+  background-color: #1d87bd;
+}
+
+.redes-sociais .github {
+  background-color: #545454;
+}
+
+.redes-sociais li a:hover {
+  opacity: 0.8;
+}
+
+.download-icon {
+  position: absolute;
+  padding-left: 5px;
+  padding-top: 2.5px;
+}
